@@ -1,0 +1,76 @@
+#EXTM3U
+#EXTINF:-1,Canal 4
+https://www.dailymotion.com/cdn/live/video/x7rwv8c.m3u8?sec=MzwhH1mvhQQJykBa5uhb522xdQFlaNjrHBr-83wZm8w4YLM8cy95BCwZ6AXZ4m8gkQtWzXkPz4_7WFy4xk4QRd4CJymHYws0MO78VVbYojn77O1LLZxvpie9CAsGbMDx&dmTs=216815&dmV1st=d5aee65a-45bd-4e80-8027-e6346e23f59c
+#EXTINF:-1,Canal 8
+https://60417ddeaf0d9.streamlock.net:443/tn8/videotn8/chunklist_w421481087.m3u8
+#EXTINF:-1,Canal 10
+https://d3pkdydaroq3im.cloudfront.net/index.m3u8
+#EXTINF:-1,Canal 20 WTV
+https://cloudvideo.servers10.com:8081/8130/index.m3u8?checkedby:iptvcat.com
+#EXTINF:-1,Telenorte
+http://astrasvip.com:1935/Telenorte/Telenorte/chunklist_w1831267613.m3u8
+#EXTINF:-1,Canal 45
+https://hdbox.chunklistv.com/live?stream=3abn-nicaragua
+#EXTINF:-1,Canal 3ABN
+https://3abn.bozztv.com/3abn2/Int_live/smil:Int_live.smil/playlist.m3u8
+#EXTINF:-1,Enlace TV
+https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
+#EXTINF:-1,Canal 11 México
+https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
+#EXTINF:-1,Canela TV
+https://amg00658-amg00658c108-canelatv-international-7664.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-canelatvlatamapp-canelatvinternational/playlist.m3u8?rights_holder_id=canela-tv2&user_id=&vip=186.77.136.192&ic=IAB1-7&content_livestream=1&app_bundle=canela.tv&app_name=CanelaTV&app_store_url=NA&dnt=0&did=e3841dce-63b5-40de-a376-1d5a7974ff35&url=https://canela.tv/player/channel/canela-tv2&us_privacy=null_us_privacy&ifa_type=NA&lmt=NA&device_language=es&coppa=0
+#EXTINF:-1,Las Estrellas
+https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
+#EXTINF:-1,Caracol Tv
+https://hls2.mywebtv.cloud/live/c1150126b/index.m3u8?live=1768548756
+#EXTINF:-1,Azteca
+https://azt-mun.otteravision.com/azt/mun/mun.m3u8
+#EXTINF:-1,RCN Mas
+https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8
+#EXTINF:-1,Señal Colombiana
+https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1,Televisa
+https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1,Telemundo
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96cc422df39f1a338d165/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bfeb5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=11274d9c-4f3d-4891-ae2e-08937bcc8bb5
+#EXTINF:-1,Gol Clasic
+https://d71gqtnep83vb.cloudfront.net/gol_classics/gol_classics.m3u8
+#EXTINF:-1,Teledeporte
+https://d1cctoeg0n48w5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mnixw9wn5ugmv/TeledeporteES.m3u8
+#EXTINF:-1,ITV Deportive
+https://thm-it-roku.otteravision.com/thm/it/it.m3u8
+#EXTINF:-1,FIFA HPA
+https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
+#EXTINF:-1,FIFA SPAIN
+https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
+#EXTM3U
+#EXTINF:-1,Cine Sony
+https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
+#EXTINF:-1,Cine Adrenalina
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
+#EXTINF:-1,Cine Primire
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1,My Time Movie
+https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
+#EXTINF:-1,Pelis Popcorn
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb2f47c133270007327375/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a9f24-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8f7b47b7-a2d8-4c61-847a-02818046001b
+#EXTINF:-1,Run Time
+https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh.m3u8
+#EXTINF:-1,Pluto Accion
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=unknown&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=
+#EXTINF:-1,Pluto Cine Estelar
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingIdappName=web&appStoreUrl=&appVersion=unknown&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-630711eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=
+#EXTINF:-1,Plex Cine Accion
+https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3b2a-6018913ea15130002b284193.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=znZXPDWszkbuxKc5U7Ey
+#EXTINF:-1,Plex Cine Estelar
+https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3b2a-6018913ea15130002b284193.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=znZXPDWszkbuxKc5U7Ey
+
+
+
+
+
+
+
+
+
+
