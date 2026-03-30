@@ -20,7 +20,7 @@ jobs:
         run: pip install yt-dlp
 
       - name: Ejecutar script de actualización
-        run: python actualizar_lista.py
+        run: python update_list.py
 
       - name: Guardar cambios
         run: |
