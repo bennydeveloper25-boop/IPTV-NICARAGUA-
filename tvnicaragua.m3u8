@@ -1,10 +1,14 @@
 #EXTM3U
 #EXTINF:-1,Canal 4
 https://www.dailymotion.com/cdn/live/video/x7rwv8c.m3u8?sec=MzwhH1mvhQQJykBa5uhb522xdQFlaNjrHBr-83wZm8w4YLM8cy95BCwZ6AXZ4m8gkQtWzXkPz4_7WFy4xk4QRd4CJymHYws0MO78VVbYojn77O1LLZxvpie9CAsGbMDx&dmTs=216815&dmV1st=d5aee65a-45bd-4e80-8027-e6346e23f59c
+#EXTINF:-1, Canal 6
+https://geo.dailymotion.com/player.html?video=xa1xkxq
 #EXTINF:-1,Canal 8
 https://60417ddeaf0d9.streamlock.net:443/tn8/videotn8/chunklist_w421481087.m3u8
 #EXTINF:-1,Canal 10
 https://d3pkdydaroq3im.cloudfront.net/index.m3u8
+#EXTINF:-1, Canal 13
+https://geo.dailymotion.com/player.html?video=x7u200z
 #EXTINF:-1,Canal 20 WTV
 https://cloudvideo.servers10.com:8081/8130/index.m3u8?checkedby:iptvcat.com
 #EXTINF:-1,Telenorte
