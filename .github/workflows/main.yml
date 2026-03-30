@@ -1,14 +1,18 @@
 name: Actualizador Automatico de Canales
+
 on:
   schedule:
-    - cron: '0 */6 * * *' # Se ejecuta cada 6 horas
-  workflow_dispatch: # Botón manual
+    - cron: '0 */6 * * *' # Se ejecuta cada 6 horas automáticamente
+  workflow_dispatch: # Permite ejecutarlo manualmente con el botón "Run workflow"
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    # Otorgamos permisos de escritura para que el bot pueda guardar el archivo .m3u8
     permissions:
-      contents: write # IMPORTANTE: Permiso para que el bot guarde archivos
+      contents: write
+
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
@@ -18,17 +22,19 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Instalar yt-dlp
-        run: pip install yt-dlp
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install yt-dlp
 
       - name: Ejecutar script de actualización
         run: python update_list.py
 
-      - name: Guardar y subir cambios
+      - name: Guardar y subir cambios a GitHub
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add tvnicaragua.m3u8
-          # El '|| exit 0' evita que falle si no hay cambios nuevos
+          # El comando siguiente evita que el proceso falle si no hay cambios en los links
           git commit -m "Canales actualizados: $(date)" || exit 0
-          git push origin HEAD:principal
+          git push origin HEAD:main
