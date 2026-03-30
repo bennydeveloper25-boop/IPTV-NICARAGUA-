@@ -1,18 +1,20 @@
 name: Actualizador Automatico de Canales
 on:
   schedule:
-    - cron: '0 0 * * *' # Se ejecuta a medianoche
+    - cron: '0 */6 * * *' # Se ejecuta cada 6 horas
   workflow_dispatch: # Botón manual
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # IMPORTANTE: Permiso para que el bot guarde archivos
     steps:
       - name: Descargar repositorio
-        uses: actions/checkout@v4 # Actualizado a v4
+        uses: actions/checkout@v4
 
       - name: Configurar Python
-        uses: actions/setup-python@v5 # Actualizado a v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -22,10 +24,11 @@ jobs:
       - name: Ejecutar script de actualización
         run: python update_list.py
 
-      - name: Guardar cambios
+      - name: Guardar y subir cambios
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add tvnicaragua.m3u8
+          # El '|| exit 0' evita que falle si no hay cambios nuevos
           git commit -m "Canales actualizados: $(date)" || exit 0
-          git push
+          git push origin HEAD:principal
