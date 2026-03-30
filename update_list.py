@@ -1,57 +1,65 @@
-import subprocess
+import requests
+import re
 import os
 
-# Configuración de archivos y canales
 M3U_FILE = "tvnicaragua.m3u8"
-canales_dinamicos = {
-    "Canal 13": "x7u200z",
-    "Canal 6": "xa1xkxq"
+
+# Las webs oficiales que tienen el reproductor incrustado
+canales_web = {
+    "Canal 6": "https://canal6.com.ni/en-vivo/",
+    "Canal 13": "https://www.vivanicaragua.com.ni/vivanicaragua13-en-vivo/"
 }
 
-def get_live_link(video_id, nombre_canal):
+def extraer_id_real(url_pagina):
     try:
-        url = f"https://www.dailymotion.com/video/{video_id}"
-        # Usamos un User-Agent de Android para evitar bloqueos de Dailymotion
-        cmd = [
-            "yt-dlp", 
-            "--user-agent", "Mozilla/5.0 (Android 13; Mobile; rv:109.0) Gecko/114.0 Firefox/114.0",
-            "-g", 
-            "-f", "best", 
-            url
-        ]
-        result = subprocess.run(cmd, capture_output=True, text=True, check=True)
-        return result.stdout.strip()
+        # Simulamos un navegador para que la web no nos bloquee
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        response = requests.get(url_pagina, headers=headers, timeout=15)
+        
+        # Buscamos el patrón video=XXXXXX que viste en el HTML
+        match = re.search(r'video=([a-zA-Z0-9]+)', response.text)
+        if match:
+            return match.group(1)
+        return None
     except Exception as e:
-        print(f"Error extrayendo {nombre_canal} ({video_id}): {e}")
+        print(f"Error al conectar con la web: {e}")
         return None
 
 def actualizar_lista():
     if not os.path.exists(M3U_FILE):
-        print(f"Error: No se encontró el archivo {M3U_FILE}")
+        print(f"No se encontro el archivo {M3U_FILE}")
         return
 
     with open(M3U_FILE, "r", encoding="utf-8") as f:
         lineas = f.readlines()
 
-    # Procesar la lista
+    hubo_cambios = False
     for i in range(len(lineas)):
-        linea_actual = lineas[i]
+        linea = lineas[i]
         
-        # Revisamos si la línea contiene el nombre de alguno de nuestros canales
-        for nombre, video_id in canales_dinamicos.items():
-            if f"#EXTINF:-1,{nombre}" in linea_actual.replace(" ", "") or f",{nombre}" in linea_actual:
-                print(f"Actualizando {nombre}...")
-                nuevo_link = get_live_link(video_id, nombre)
+        for nombre, url_web in canales_web.items():
+            if f"EXTINF:-1,{nombre}" in linea or f",{nombre}" in linea:
+                print(f"Verificando {nombre}...")
+                id_actualizado = extraer_id_real(url_web)
                 
-                if nuevo_link and (i + 1) < len(lineas):
-                    # Reemplazamos la línea siguiente (la URL) con el nuevo link
-                    lineas[i + 1] = nuevo_link + "\n"
-                    print(f"OK: {nombre} actualizado correctamente.")
+                if id_actualizado:
+                    nuevo_link = f"https://geo.dailymotion.com/player.html?video={id_actualizado}"
+                    
+                    # Solo actualizamos si el link en el archivo es diferente al que encontramos
+                    if (i + 1) < len(lineas) and lineas[i+1].strip() != nuevo_link:
+                        lineas[i + 1] = nuevo_link + "\n"
+                        hubo_cambios = True
+                        print(f"-> Nuevo ID detectado para {nombre}: {id_actualizado}")
+                    else:
+                        print(f"-> {nombre} ya tiene el ID mas reciente.")
                 break
 
-    # Guardar los cambios
-    with open(M3U_FILE, "w", encoding="utf-8") as f:
-        f.writelines(lineas)
+    if hubo_cambios:
+        with open(M3U_FILE, "w", encoding="utf-8") as f:
+            f.writelines(lineas)
+        print("Archivo M3U actualizado con los IDs de la web oficial.")
+    else:
+        print("No fue necesario actualizar nada.")
 
 if __name__ == "__main__":
     actualizar_lista()
