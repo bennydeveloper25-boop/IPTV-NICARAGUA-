@@ -1,0 +1,31 @@
+name: Actualizador Automatico de Canales
+on:
+  schedule:
+    - cron: '0 0 * * *' # Se ejecuta a medianoche todos los días
+  workflow_dispatch: # Esto te permite darle a un botón y probarlo YA
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Instalar yt-dlp
+        run: pip install yt-dlp
+
+      - name: Ejecutar script de actualización
+        run: python update_list.py
+
+      - name: Guardar cambios
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add tvnicaragua.m3u8
+          git commit -m "Canales actualizados: $(date)" || exit 0
+          git push
