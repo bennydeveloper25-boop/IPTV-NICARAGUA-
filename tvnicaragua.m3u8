@@ -27,8 +27,36 @@ https://hdbox.chunklistv.com/live?stream=3abn-nicaragua
 https://3abn.bozztv.com/3abn2/Int_live/smil:Int_live.smil/playlist.m3u8
 #EXTINF:-1,Enlace TV
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
-#EXTINF:-1,Canal 11 México
-https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
+#EXTINF:-1,Cine Sony
+https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
+#EXTINF:-1, Channel Sony
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/16.ts
+#EXTINF:-1, AXN
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/21.ts
+#EXTINF:-1, FX
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/19.ts
+#EXTINF:-1, Cinemax
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/82.ts
+#EXTINF:-1, Golden EDGE
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/84.ts
+#EXTINF:-1, Channel Sony
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/16.ts
+#EXTINF:-1, Studio Universal
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/86.ts
+#EXTINF:-1, Universal Premiere
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/1661.ts
+#EXTINF:-1, Universal TV
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/18.ts
+#EXTINF:-1, HBO
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/120.ts
+#EXTINF:-1, HBO Plus
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/610.ts
+#EXTINF:-1, HBO Extreme
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/298.ts
+#EXTINF:-1, USA Network
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/31.ts
+#EXTINF:-1, TNT Series
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/33.ts
 #EXTINF:-1,Canela TV
 https://amg00658-amg00658c108-canelatv-international-7664.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-canelatvlatamapp-canelatvinternational/playlist.m3u8?rights_holder_id=canela-tv2&user_id=&vip=186.77.136.192&ic=IAB1-7&content_livestream=1&app_bundle=canela.tv&app_name=CanelaTV&app_store_url=NA&dnt=0&did=e3841dce-63b5-40de-a376-1d5a7974ff35&url=https://canela.tv/player/channel/canela-tv2&us_privacy=null_us_privacy&ifa_type=NA&lmt=NA&device_language=es&coppa=0
 #EXTINF:-1,Las Estrellas
@@ -47,17 +75,10 @@ https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96cc422df39f1a338d165/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bfeb5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=11274d9c-4f3d-4891-ae2e-08937bcc8bb5
 #EXTINF:-1,Gol Clasic
 https://d71gqtnep83vb.cloudfront.net/gol_classics/gol_classics.m3u8
-#EXTINF:-1,Teledeporte
-https://d1cctoeg0n48w5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mnixw9wn5ugmv/TeledeporteES.m3u8
-#EXTINF:-1,ITV Deportive
-https://thm-it-roku.otteravision.com/thm/it/it.m3u8
 #EXTINF:-1,FIFA HPA
 https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
 #EXTINF:-1,FIFA SPAIN
 https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
-#EXTM3U
-#EXTINF:-1,Cine Sony
-https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 #EXTINF:-1,Cine Adrenalina
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 #EXTINF:-1,Cine Primire
