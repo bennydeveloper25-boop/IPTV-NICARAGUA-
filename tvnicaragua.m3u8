@@ -39,8 +39,6 @@ http://cdn1host.online:8080/live/xman1/899PBb5mwA/19.ts
 http://cdn1host.online:8080/live/xman1/899PBb5mwA/82.ts
 #EXTINF:-1, Golden EDGE
 http://cdn1host.online:8080/live/xman1/899PBb5mwA/84.ts
-#EXTINF:-1, Channel Sony
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/16.ts
 #EXTINF:-1, Studio Universal
 http://cdn1host.online:8080/live/xman1/899PBb5mwA/86.ts
 #EXTINF:-1, Universal Premiere
@@ -61,18 +59,18 @@ http://cdn1host.online:8080/live/xman1/899PBb5mwA/33.ts
 https://amg00658-amg00658c108-canelatv-international-7664.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-canelatvlatamapp-canelatvinternational/playlist.m3u8?rights_holder_id=canela-tv2&user_id=&vip=186.77.136.192&ic=IAB1-7&content_livestream=1&app_bundle=canela.tv&app_name=CanelaTV&app_store_url=NA&dnt=0&did=e3841dce-63b5-40de-a376-1d5a7974ff35&url=https://canela.tv/player/channel/canela-tv2&us_privacy=null_us_privacy&ifa_type=NA&lmt=NA&device_language=es&coppa=0
 #EXTINF:-1,Las Estrellas
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
-#EXTINF:-1,Caracol Tv
-https://hls2.mywebtv.cloud/live/c1150126b/index.m3u8?live=1768548756
+#EXTINF:-1, TeleMundo internacional
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/54.ts
+#EXTINF:-1, TeleNovelas
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/40.ts
 #EXTINF:-1,Azteca
 https://azt-mun.otteravision.com/azt/mun/mun.m3u8
+#EXTINF:-1, TeleNovelas
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/40.ts
 #EXTINF:-1,RCN Mas
 https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8
 #EXTINF:-1,Señal Colombiana
 https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1,Televisa
-https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1,Telemundo
-https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96cc422df39f1a338d165/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bfeb5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=11274d9c-4f3d-4891-ae2e-08937bcc8bb5
 #EXTINF:-1,Gol Clasic
 https://d71gqtnep83vb.cloudfront.net/gol_classics/gol_classics.m3u8
 #EXTINF:-1,FIFA HPA
