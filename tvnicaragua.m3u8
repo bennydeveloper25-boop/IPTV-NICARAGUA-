@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1, Canal 2
+http://45.167.1.138:8000/play/a035
 #EXTINF:-1,Canal 4
 https://www.dailymotion.com/cdn/live/video/x7rwv8c.m3u8?sec=MzwhH1mvhQQJykBa5uhb522xdQFlaNjrHBr-83wZm8w4YLM8cy95BCwZ6AXZ4m8gkQtWzXkPz4_7WFy4xk4QRd4CJymHYws0MO78VVbYojn77O1LLZxvpie9CAsGbMDx&dmTs=216815&dmV1st=d5aee65a-45bd-4e80-8027-e6346e23f59c
 #EXTINF:-1, Canal 6
