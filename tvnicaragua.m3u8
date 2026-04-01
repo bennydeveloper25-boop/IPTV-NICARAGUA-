@@ -4,13 +4,13 @@ http://45.167.1.138:8000/play/a035
 #EXTINF:-1,Canal 4
 http://45.167.1.138:8000/play/a040
 #EXTINF:-1,Canal 8
-https://60417ddeaf0d9.streamlock.net:443/tn8/videotn8/chunklist_w421481087.m3u8
+http://45.167.1.138:8000/play/a01z
 #EXTINF:-1,Canal 10
 https://d2qsan2ut81n2k.cloudfront.net/live/de56d452-7c64-4e7a-a0f5-aafb4bfa36b7/ts:abr.m3u8
 #EXTINF:-1,Canal 12
 http://45.167.1.138:8000/play/a00u
 #EXTINF:-1, Canal 13
-https://geo.dailymotion.com/player.html?video=x7u200z
+http://45.167.1.138:8000/play/a025
 #EXTINF:-1, Canal 14 VosTV
 http://45.167.1.138:8000/play/a020
 #EXTINF:-1,Canal 20 WTV
@@ -18,71 +18,127 @@ https://cloudvideo.servers10.com:8081/8130/index.m3u8?checkedby:iptvcat.com
 #EXTINF:-1,Canal 51TV
 http://45.167.1.138:8000/play/a010
 #EXTINF:-1,Cartoon Network
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/50.ts
+http://45.167.1.138:8000/play/a00w
+#EXTINF:-1,Cartoonito
+http://45.167.1.138:8000/play/a00y
 #EXTINF:-1,Discovery Kids
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/43.ts
-#EXTINF:-1,Disney Jr
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/44.ts
+http://45.167.1.138:8000/play/a045
+#EXTINF:-1,Disney Channel
+http://45.167.1.138:8000/play/a047
+#EXTINF:-1,DisneyJR
+http://45.167.1.138:8000/play/a00z
 #EXTINF:-1,Nick Jr
 http://cdn1host.online:8080/live/xman1/899PBb5mwA/45.ts
 #EXTINF:-1,Tooncast
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/55.ts
+http://45.167.1.138:8000/play/a03a
+#EXTINF:-1,Clan TP
+http://45.167.1.138:8000/play/a03b
+#EXTINF:-1,MaxAnime
+http://45.167.1.138:8000/play/a00x
 #EXTINF:-1,Canal 45
 https://hdbox.chunklistv.com/live?stream=3abn-nicaragua
 #EXTINF:-1,Canal 3ABN
 https://3abn.bozztv.com/3abn2/Int_live/smil:Int_live.smil/playlist.m3u8
+#EXTINF:-1,Enlace
+http://45.167.1.138:8000/play/a01l
 #EXTINF:-1,Enlace TV
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
-#EXTINF:-1,Cine Sony
-https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 #EXTINF:-1, Channel Sony
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/16.ts
+http:\\45.167.1.138:8000\play\a03d
 #EXTINF:-1, AXN
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/21.ts
+http://45.167.1.138:8000/play/a01f
 #EXTINF:-1, FX
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/19.ts
+http://45.167.1.138:8000/play/a02d
 #EXTINF:-1, Cinemax
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/82.ts
-#EXTINF:-1, Golden EDGE
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/84.ts
+http://45.167.1.138:8000/play/a04m
+#EXTINF:-1, Space
+http://45.167.1.138:8000/play/a015
+#EXTINF:-1, Star channel
+http://45.167.1.138:8000/play/a048
 #EXTINF:-1, Studio Universal
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/86.ts
+http://45.167.1.138:8000/play/a04n
 #EXTINF:-1, Universal Premiere
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/1661.ts
+http://45.167.1.138:8000/play/a064
+#EXTINF:-1, Universal Reality
+http://45.167.1.138:8000/play/a065
+#EXTINF:-1, Universal Comedy
+http://45.167.1.138:8000/play/a067
 #EXTINF:-1, Universal TV
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/18.ts
+http://45.167.1.138:8000/play/a04j
 #EXTINF:-1, HBO
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/120.ts
+http://45.167.1.138:8000/play/a00h
+#EXTINF:-1, HBO 2
+http://45.167.1.138:8000/play/a00i
 #EXTINF:-1, HBO Plus
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/610.ts
+http://45.167.1.138:8000/play/a00j
+#EXTINF:-1, HBO Family
+http://45.167.1.138:8000/play/a00k
 #EXTINF:-1, HBO Extreme
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/298.ts
+http://45.167.1.138:8000/play/a00l
 #EXTINF:-1, USA Network
 http://cdn1host.online:8080/live/xman1/899PBb5mwA/31.ts
+#EXTINF:-1, Canal Claro
+http://45.167.1.138:8000/play/a00o
 #EXTINF:-1, TNT Series
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/33.ts
+http://45.167.1.138:8000/play/a016
 #EXTINF:-1,Canela TV
 https://amg00658-amg00658c108-canelatv-international-7664.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-canelatvlatamapp-canelatvinternational/playlist.m3u8?rights_holder_id=canela-tv2&user_id=&vip=186.77.136.192&ic=IAB1-7&content_livestream=1&app_bundle=canela.tv&app_name=CanelaTV&app_store_url=NA&dnt=0&did=e3841dce-63b5-40de-a376-1d5a7974ff35&url=https://canela.tv/player/channel/canela-tv2&us_privacy=null_us_privacy&ifa_type=NA&lmt=NA&device_language=es&coppa=0
 #EXTINF:-1,Las Estrellas
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
 #EXTINF:-1, TeleMundo internacional
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/54.ts
+http://45.167.1.138:8000/play/a013
+#EXTINF:-1, TNT Novelas
+http://45.167.1.138:8000/play/a018
 #EXTINF:-1, TeleNovelas
 http://cdn1host.online:8080/live/xman1/899PBb5mwA/40.ts
 #EXTINF:-1,Azteca
-https://azt-mun.otteravision.com/azt/mun/mun.m3u8
-#EXTINF:-1,RCN Mas
-https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8
+http://45.167.1.138:8000/play/a014
+#EXTINF:-1, Caracol TV
+http://45.167.1.138:8000/play/a049
+#EXTINF:-1,RCN 
+http://45.167.1.138:8000/play/a02e
+#EXTINF:-1,Telefe
+http://45.167.1.138:8000/play/a04h
 #EXTINF:-1,Señal Colombiana
 https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1, ESPN 
+http://45.167.1.138:8000/play/a03l
+#EXTINF:-1, ESPN 2
+http://45.167.1.138:8000/play/a03m
+#EXTINF:-1, ESPN 3
+http://45.167.1.138:8000/play/a02k
+#EXTINF:-1, ESPN 4
+http://45.167.1.138:8000/play/a01p
+#EXTINF:-1, ESPN 5
+http://45.167.1.138:8000/play/a04g
+#EXTINF:-1, ESPN 6
+http://45.167.1.138:8000/play/a01b
+#EXTINF:-1, ESPN TUND
+http://45.167.1.138:8000/play/a06a
+#EXTINF:-1 Claro Sport
+http://45.167.1.138:8000/play/a04e
+#EXTINF:-1 Claro Sport 2
+http://45.167.1.138:8000/play/a02j
 #EXTINF:-1,CDN deportes
 http://45.167.1.138:8000/play/a022
+#EXTINF:-1,PXSport
+http://45.167.1.138:8000/play/a02m
 #EXTINF:-1,Gol Clasic
 https://d71gqtnep83vb.cloudfront.net/gol_classics/gol_classics.m3u8
 #EXTINF:-1,FIFA HPA
 https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
 #EXTINF:-1,FIFA SPAIN
 https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
+#EXTINF:-1,History
+http://45.167.1.138:8000/play/a03j
+#EXTINF:-1,History 2
+http://45.167.1.138:8000/play/a02g
+#EXTINF:-1, Animal planet
+http://45.167.1.138:8000/play/a03i
+#EXTINF:-1, Discovery ID
+http://45.167.1.138:8000/play/a04c
+#EXTINF:-1, TLC
+http://45.167.1.138:8000/play/a03k
 #EXTINF:-1,Cine Adrenalina
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 #EXTINF:-1,Cine Primire
