@@ -1,149 +1,153 @@
 #EXTM3U
-#EXTINF:-1, Canal 2
+
+# --- Canales nacionales ---
+#EXTINF:-1 group-title="Canales nacionales", Canal 2
 http://45.167.1.138:8000/play/a035
-#EXTINF:-1,Canal 4
+#EXTINF:-1 group-title="Canales nacionales", Canal 4
 http://45.167.1.138:8000/play/a040
-#EXTINF:-1,Canal 8
+#EXTINF:-1 group-title="Canales nacionales", Canal 8
 http://45.167.1.138:8000/play/a01z
-#EXTINF:-1,Canal 10
+#EXTINF:-1 group-title="Canales nacionales", Canal 10
 https://d2qsan2ut81n2k.cloudfront.net/live/de56d452-7c64-4e7a-a0f5-aafb4bfa36b7/ts:abr.m3u8
-#EXTINF:-1,Canal 12
+#EXTINF:-1 group-title="Canales nacionales", Canal 12
 http://45.167.1.138:8000/play/a00u
-#EXTINF:-1, Canal 13
+#EXTINF:-1 group-title="Canales nacionales", Canal 13
 http://45.167.1.138:8000/play/a025
-#EXTINF:-1, Canal 14 VosTV
+#EXTINF:-1 group-title="Canales nacionales", Canal 14 VosTV
 http://45.167.1.138:8000/play/a020
-#EXTINF:-1,Canal 20 WTV
+#EXTINF:-1 group-title="Canales nacionales", Canal 20 WTV
 https://cloudvideo.servers10.com:8081/8130/index.m3u8?checkedby:iptvcat.com
-#EXTINF:-1,Canal 51TV
+#EXTINF:-1 group-title="Canales nacionales", Canal 51TV
 http://45.167.1.138:8000/play/a010
-#EXTINF:-1,Cartoon Network
-http://45.167.1.138:8000/play/a00w
-#EXTINF:-1,Cartoonito
-http://45.167.1.138:8000/play/a00y
-#EXTINF:-1,Discovery Kids
-http://45.167.1.138:8000/play/a045
-#EXTINF:-1,Disney Channel
-http://45.167.1.138:8000/play/a047
-#EXTINF:-1,DisneyJR
-http://45.167.1.138:8000/play/a00z
-#EXTINF:-1,Nick Jr
-http://cdn1host.online:8080/live/xman1/899PBb5mwA/45.ts
-#EXTINF:-1,Tooncast
-http://45.167.1.138:8000/play/a03a
-#EXTINF:-1,Clan TP
-http://45.167.1.138:8000/play/a03b
-#EXTINF:-1,MaxAnime
-http://45.167.1.138:8000/play/a00x
-#EXTINF:-1,Canal 45
+#EXTINF:-1 group-title="Canales nacionales", Canal 45
 https://hdbox.chunklistv.com/live?stream=3abn-nicaragua
-#EXTINF:-1,Canal 3ABN
+#EXTINF:-1 group-title="Canales nacionales", Canal 3ABN
 https://3abn.bozztv.com/3abn2/Int_live/smil:Int_live.smil/playlist.m3u8
-#EXTINF:-1,Enlace
+#EXTINF:-1 group-title="Canales nacionales", Enlace
 http://45.167.1.138:8000/play/a01l
-#EXTINF:-1,Enlace TV
+#EXTINF:-1 group-title="Canales nacionales", Enlace TV
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
-#EXTINF:-1, Channel Sony
-http:\\45.167.1.138:8000\play\a03d
-#EXTINF:-1, AXN
+
+# --- Canales animados ---
+#EXTINF:-1 group-title="Canales animados", Cartoon Network
+http://45.167.1.138:8000/play/a00w
+#EXTINF:-1 group-title="Canales animados", Cartoonito
+http://45.167.1.138:8000/play/a00y
+#EXTINF:-1 group-title="Canales animados", Discovery Kids
+http://45.167.1.138:8000/play/a045
+#EXTINF:-1 group-title="Canales animados", Disney Channel
+http://45.167.1.138:8000/play/a047
+#EXTINF:-1 group-title="Canales animados", DisneyJR
+http://45.167.1.138:8000/play/a00z
+#EXTINF:-1 group-title="Canales animados", Nick Jr
+http://cdn1host.online:8080/live/xman1/899PBb5mwA/45.ts
+#EXTINF:-1 group-title="Canales animados", Tooncast
+http://45.167.1.138:8000/play/a03a
+#EXTINF:-1 group-title="Canales animados", Clan TP
+http://45.167.1.138:8000/play/a03b
+#EXTINF:-1 group-title="Canales animados", MaxAnime
+http://45.167.1.138:8000/play/a00x
+
+# --- Canales de peliculas ---
+#EXTINF:-1 group-title="Canales de peliculas", Channel Sony
+http://45.167.1.138:8000/play/a03d
+#EXTINF:-1 group-title="Canales de peliculas", AXN
 http://45.167.1.138:8000/play/a01f
-#EXTINF:-1, FX
+#EXTINF:-1 group-title="Canales de peliculas", FX
 http://45.167.1.138:8000/play/a02d
-#EXTINF:-1, Cinemax
+#EXTINF:-1 group-title="Canales de peliculas", Cinemax
 http://45.167.1.138:8000/play/a04m
-#EXTINF:-1, Space
+#EXTINF:-1 group-title="Canales de peliculas", Space
 http://45.167.1.138:8000/play/a015
-#EXTINF:-1, Star channel
+#EXTINF:-1 group-title="Canales de peliculas", Star channel
 http://45.167.1.138:8000/play/a048
-#EXTINF:-1, Studio Universal
+#EXTINF:-1 group-title="Canales de peliculas", Studio Universal
 http://45.167.1.138:8000/play/a04n
-#EXTINF:-1, Universal Premiere
+#EXTINF:-1 group-title="Canales de peliculas", Universal Premiere
 http://45.167.1.138:8000/play/a064
-#EXTINF:-1, Universal Reality
+#EXTINF:-1 group-title="Canales de peliculas", Universal Reality
 http://45.167.1.138:8000/play/a065
-#EXTINF:-1, Universal Comedy
+#EXTINF:-1 group-title="Canales de peliculas", Universal Comedy
 http://45.167.1.138:8000/play/a067
-#EXTINF:-1, Universal TV
+#EXTINF:-1 group-title="Canales de peliculas", Universal TV
 http://45.167.1.138:8000/play/a04j
-#EXTINF:-1, HBO
+#EXTINF:-1 group-title="Canales de peliculas", HBO
 http://45.167.1.138:8000/play/a00h
-#EXTINF:-1, HBO 2
+#EXTINF:-1 group-title="Canales de peliculas", HBO 2
 http://45.167.1.138:8000/play/a00i
-#EXTINF:-1, HBO Plus
+#EXTINF:-1 group-title="Canales de peliculas", HBO Plus
 http://45.167.1.138:8000/play/a00j
-#EXTINF:-1, HBO Family
+#EXTINF:-1 group-title="Canales de peliculas", HBO Family
 http://45.167.1.138:8000/play/a00k
-#EXTINF:-1, HBO Extreme
+#EXTINF:-1 group-title="Canales de peliculas", HBO Extreme
 http://45.167.1.138:8000/play/a00l
-#EXTINF:-1, USA Network
+#EXTINF:-1 group-title="Canales de peliculas", USA Network
 http://cdn1host.online:8080/live/xman1/899PBb5mwA/31.ts
-#EXTINF:-1, Canal Claro
+#EXTINF:-1 group-title="Canales de peliculas", Canal Claro
 http://45.167.1.138:8000/play/a00o
-#EXTINF:-1, TNT Series
+#EXTINF:-1 group-title="Canales de peliculas", TNT Series
 http://45.167.1.138:8000/play/a016
-#EXTINF:-1,Canela TV
+#EXTINF:-1 group-title="Canales de peliculas", Canela TV
 https://amg00658-amg00658c108-canelatv-international-7664.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-canelatvlatamapp-canelatvinternational/playlist.m3u8?rights_holder_id=canela-tv2&user_id=&vip=186.77.136.192&ic=IAB1-7&content_livestream=1&app_bundle=canela.tv&app_name=CanelaTV&app_store_url=NA&dnt=0&did=e3841dce-63b5-40de-a376-1d5a7974ff35&url=https://canela.tv/player/channel/canela-tv2&us_privacy=null_us_privacy&ifa_type=NA&lmt=NA&device_language=es&coppa=0
-#EXTINF:-1,Las Estrellas
+
+# --- Canales novelas ---
+#EXTINF:-1 group-title="Canales novelas", Las Estrellas
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
-#EXTINF:-1, TeleMundo internacional
+#EXTINF:-1 group-title="Canales novelas", TeleMundo internacional
 http://45.167.1.138:8000/play/a013
-#EXTINF:-1, TNT Novelas
+#EXTINF:-1 group-title="Canales novelas", TNT Novelas
 http://45.167.1.138:8000/play/a018
-#EXTINF:-1, TeleNovelas
+#EXTINF:-1 group-title="Canales novelas", TeleNovelas
 http://cdn1host.online:8080/live/xman1/899PBb5mwA/40.ts
-#EXTINF:-1,Azteca
+#EXTINF:-1 group-title="Canales novelas", Azteca
 http://45.167.1.138:8000/play/a014
-#EXTINF:-1, Caracol TV
+#EXTINF:-1 group-title="Canales novelas", Caracol TV
 http://45.167.1.138:8000/play/a049
-#EXTINF:-1,RCN 
+#EXTINF:-1 group-title="Canales novelas", RCN
 http://45.167.1.138:8000/play/a02e
-#EXTINF:-1,Telefe
+#EXTINF:-1 group-title="Canales novelas", Telefe
 http://45.167.1.138:8000/play/a04h
-#EXTINF:-1,Señal Colombiana
+#EXTINF:-1 group-title="Canales novelas", Señal Colombiana
 https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1, ESPN 
+
+# --- Canales deportivos ---
+#EXTINF:-1 group-title="Canales deportivos", ESPN
 http://45.167.1.138:8000/play/a03l
-#EXTINF:-1, ESPN 2
+#EXTINF:-1 group-title="Canales deportivos", ESPN 2
 http://45.167.1.138:8000/play/a03m
-#EXTINF:-1, ESPN 3
+#EXTINF:-1 group-title="Canales deportivos", ESPN 3
 http://45.167.1.138:8000/play/a02k
-#EXTINF:-1, ESPN 4
+#EXTINF:-1 group-title="Canales deportivos", ESPN 4
 http://45.167.1.138:8000/play/a01p
-#EXTINF:-1, ESPN 5
+#EXTINF:-1 group-title="Canales deportivos", ESPN 5
 http://45.167.1.138:8000/play/a04g
-#EXTINF:-1, ESPN 6
+#EXTINF:-1 group-title="Canales deportivos", ESPN 6
 http://45.167.1.138:8000/play/a01b
-#EXTINF:-1, ESPN TUND
+#EXTINF:-1 group-title="Canales deportivos", ESPN TUND
 http://45.167.1.138:8000/play/a06a
-#EXTINF:-1 Claro Sport
+#EXTINF:-1 group-title="Canales deportivos", Claro Sport
 http://45.167.1.138:8000/play/a04e
-#EXTINF:-1 Claro Sport 2
+#EXTINF:-1 group-title="Canales deportivos", Claro Sport 2
 http://45.167.1.138:8000/play/a02j
-#EXTINF:-1,CDN deportes
+#EXTINF:-1 group-title="Canales deportivos", CDN deportes
 http://45.167.1.138:8000/play/a022
-#EXTINF:-1,PXSport
+#EXTINF:-1 group-title="Canales deportivos", PXSport
 http://45.167.1.138:8000/play/a02m
-#EXTINF:-1,Gol Clasic
+#EXTINF:-1 group-title="Canales deportivos", Gol Clasic
 https://d71gqtnep83vb.cloudfront.net/gol_classics/gol_classics.m3u8
-#EXTINF:-1,FIFA HPA
+#EXTINF:-1 group-title="Canales deportivos", FIFA HPA
 https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
-#EXTINF:-1,FIFA SPAIN
+#EXTINF:-1 group-title="Canales deportivos", FIFA SPAIN
 https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
-#EXTINF:-1,History
+
+# --- Documentales ---
+#EXTINF:-1 group-title="Documentales", History
 http://45.167.1.138:8000/play/a03j
-#EXTINF:-1,History 2
+#EXTINF:-1 group-title="Documentales", History 2
 http://45.167.1.138:8000/play/a02g
-#EXTINF:-1, Animal planet
+#EXTINF:-1 group-title="Documentales", Animal planet
 http://45.167.1.138:8000/play/a03i
-#EXTINF:-1, Discovery ID
+#EXTINF:-1 group-title="Documentales", Discovery ID
 http://45.167.1.138:8000/play/a04c
-#EXTINF:-1, TLC
+#EXTINF:-1 group-title="Documentales", TLC
 http://45.167.1.138:8000/play/a03k
-
-
-
-
-
-
-
-
