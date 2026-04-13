@@ -1,4 +1,4 @@
-name: Actualizador Automatico de Canales
+name: Actualizador Automatico de Canales 
 
 on:
   schedule:
